@@ -9,5 +9,5 @@ Takes session ID of account money is coming from and account ID the money goes t
 ## `GET /logout?id=:sessionid`
 Takes session ID (because it's invalidated afterwards.
 
-## `GET /balance/:accountid`
+## `GET /balance?id=:accountid`
 Gets the balance of account `accountid`.
